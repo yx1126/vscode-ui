@@ -1,13 +1,17 @@
 {
-    "name": "vscode-theme",
+    "name": "vscode-ui",
     "displayName": "Webstorm NewUI Theme",
     "version": "0.0.1",
     "private": true,
     "description": "WebStorm Theme and Icon theme for Visual Studio Code",
     "keywords": ["webstorm", "theme", "icons"],
-    "publisher": "yx1126",
+    "publisher": "reallyx",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yx1126/vscode-ui"
+    },
     "scripts": {
-        "publish": "vsce publish --no-dependencies",
+        "push": "vsce publish --no-dependencies",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix"
     },
