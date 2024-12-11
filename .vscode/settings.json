@@ -1,0 +1,30 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.format.enable": true,
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.useFlatConfig": true,
+    "eslint.validate": [
+        "jsonc",
+        "json",
+        "json5"
+    ],
+    "editor.cursorSmoothCaretAnimation": "on",
+    "files.exclude": {
+        "out": false // set this to true to hide the "out" folder with the compiled JS files
+    },
+    "search.exclude": {
+        "out": true // set this to false to include "out" folder in search results
+    },
+    // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
+    "[json]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}
