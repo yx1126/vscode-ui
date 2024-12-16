@@ -1,7 +1,7 @@
 {
     "name": "vscode-ui",
     "displayName": "Webstorm NewUI Theme",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "private": true,
     "description": "WebStorm Theme and Icon theme for Visual Studio Code",
     "keywords": ["webstorm", "theme", "icons"],
