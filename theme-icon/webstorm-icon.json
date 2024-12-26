@@ -36,6 +36,9 @@
         "file_css": {
             "iconPath": "../resources/jetBrains/dark-icon/css.svg"
         },
+        "file_css_light": {
+            "iconPath": "../resources/jetBrains/light-icon/css.svg"
+        },
         "file_csv": {
             "iconPath": "../resources/jetBrains/dark-icon/csv.svg"
         },
@@ -96,11 +99,23 @@
         "file_java_light": {
             "iconPath": "../resources/jetBrains/light-icon/java.svg"
         },
-        "file_javaScript": {
+        "file_js": {
             "iconPath": "../resources/jetBrains/dark-icon/javaScript.svg"
         },
-        "file_javaScript_light": {
+        "file_js_light": {
             "iconPath": "../resources/jetBrains/light-icon/javaScript.svg"
+        },
+        "file_js_hint": {
+            "iconPath": "../resources/jetBrains/dark-icon/js_hint.svg"
+        },
+        "file_js_hint_light": {
+            "iconPath": "../resources/jetBrains/light-icon/js_hint.svg"
+        },
+        "file_ts": {
+            "iconPath": "../resources/jetBrains/dark-icon/typescript.svg"
+        },
+        "file_ts_light": {
+            "iconPath": "../resources/jetBrains/light-icon/typescript.svg"
         },
         "file_jest": {
             "iconPath": "../resources/jetBrains/dark-icon/jest.svg"
@@ -171,8 +186,35 @@
         "file_react_light": {
             "iconPath": "../resources/jetBrains/light-icon/react.svg"
         },
-        "file_scss": {
-            "iconPath": "../resources/jetBrains/dark-icon/scss.svg"
+        "file_js_test": {
+            "iconPath": "../resources/jetBrains/dark-icon/js_test.svg"
+        },
+        "file_js_test_light": {
+            "iconPath": "../resources/jetBrains/light-icon/js_test.svg"
+        },
+        "file_ts_test": {
+            "iconPath": "../resources/jetBrains/dark-icon/ts_test.svg"
+        },
+        "file_ts_test_light": {
+            "iconPath": "../resources/jetBrains/light-icon/ts_test.svg"
+        },
+        "file_jsx_test": {
+            "iconPath": "../resources/jetBrains/dark-icon/jsx_test.svg"
+        },
+        "file_jsx_test_light": {
+            "iconPath": "../resources/jetBrains/light-icon/jsx_test.svg"
+        },
+        "file_tsx_test": {
+            "iconPath": "../resources/jetBrains/dark-icon/tsx_test.svg"
+        },
+        "file_tsx_test_light": {
+            "iconPath": "../resources/jetBrains/light-icon/tsx_test.svg"
+        },
+        "file_sass": {
+            "iconPath": "../resources/jetBrains/dark-icon/sass.svg"
+        },
+        "file_sass_light": {
+            "iconPath": "../resources/jetBrains/light-icon/sass.svg"
         },
         "file_shell": {
             "iconPath": "../resources/jetBrains/dark-icon/shell.svg"
@@ -197,9 +239,6 @@
         },
         "file_text_light": {
             "iconPath": "../resources/jetBrains/light-icon/text.svg"
-        },
-        "file_typescript": {
-            "iconPath": "../resources/jetBrains/dark-icon/typescript.svg"
         },
         "file_unknown": {
             "iconPath": "../resources/jetBrains/dark-icon/unknown.svg"
@@ -311,6 +350,18 @@
         },
         "file_vscode": {
             "iconPath": "../resources/custom-icon/dark-icon/vscode.svg"
+        },
+        "file_table": {
+            "iconPath": "../resources/jetBrains/dark-icon/table.svg"
+        },
+        "file_table_light": {
+            "iconPath": "../resources/jetBrains/light-icon/table.svg"
+        },
+        "file_asm": {
+            "iconPath": "../resources/jetBrains/dark-icon/asm.svg"
+        },
+        "file_asm_light": {
+            "iconPath": "../resources/jetBrains/light-icon/asm.svg"
         }
     },
     "file": "file_text",
@@ -329,7 +380,10 @@
         "tailwind.config.ts": "file_tailwindcss",
         "vite.config.js": "file_vite",
         "vite.config.cjs": "file_vite",
+        "vite.config.mjs": "file_vite",
         "vite.config.ts": "file_vite",
+        "vite.config.cts": "file_vite",
+        "vite.config.mts": "file_vite",
         "postcss.config.js": "file_postcss",
         "postcss.config.cjs": "file_postcss",
         "postcss.config.ts": "file_postcss",
@@ -340,6 +394,9 @@
         "eslint.config.js": "file_eslint",
         "eslint.config.cjs": "file_eslint",
         "eslint.config.mjs": "file_eslint",
+        "eslint.config.ts": "file_eslint",
+        "eslint.config.cts": "file_eslint",
+        "eslint.config.mts": "file_eslint",
         ".eslintignore": "file_eslint",
         ".stylelintrc": "file_stylelint",
         ".stylelintrc.json": "file_stylelint",
@@ -352,6 +409,8 @@
         "stylelint.config.cjs": "file_stylelint",
         "stylelint.config.mjs": "file_stylelint",
         "stylelint.config.ts": "file_stylelint",
+        "stylelint.config.cts": "file_stylelint",
+        "stylelint.config.mts": "file_stylelint",
         "pnpm-lock.yaml": "file_pnpm",
         "uno.config.js": "file_unocss",
         "uno.config.ts": "file_unocss",
@@ -365,24 +424,30 @@
         "manifest.json": "file_manifest",
         "webpack.config.js": "file_webpack",
         "webpack.config.cjs": "file_webpack",
+        "webpack.config.mjs": "file_webpack",
         "webpack.config.ts": "file_webpack",
         "webpack.config.build.js": "file_webpack",
         "webpack.config.build.cjs": "file_webpack",
+        "webpack.config.build.mjs": "file_webpack",
         "webpack.config.build.ts": "file_webpack",
         "webpack.common.js": "file_webpack",
         "webpack.common.cjs": "file_webpack",
+        "webpack.common.mjs": "file_webpack",
         "webpack.common.ts": "file_webpack",
         "webpack.dev.js": "file_webpack",
         "webpack.dev.cjs": "file_webpack",
+        "webpack.dev.mjs": "file_webpack",
         "webpack.dev.ts": "file_webpack",
         "webpack.prod.js": "file_webpack",
         "webpack.prod.cjs": "file_webpack",
+        "webpack.prod.mjs": "file_webpack",
         "webpack.prod.ts": "file_webpack",
         ".babelrc": "file_babel",
         "babel.config.js": "file_babel",
         "babel.config.ts": "file_babel",
         "babel.config.cjs": "file_babel",
         "babel.config.mjs": "file_babel",
+        "babel.config.cts": "file_babel",
         "babel.config.mts": "file_babel",
         "babel.config.json": "file_babel",
         "rollup.config.js": "file_rollup",
@@ -391,27 +456,35 @@
     },
     "fileExtensions": {
         "css": "file_css",
-        "scss": "file_scss",
-        "sass": "file_scss",
+        "scss": "file_sass",
+        "sass": "file_sass",
         "less": "file_less",
         "json": "file_json",
         "html": "file_html",
         "jsx": "file_react",
+        "cjsx": "file_react",
         "tsx": "file_react",
-        "mjs": "file_javaScript",
-        "cjs": "file_javaScript",
-        "js": "file_javaScript",
-        "mts": "file_typescript",
-        "cts": "file_typescript",
-        "ts": "file_typescript",
+        "mjs": "file_js",
+        "cjs": "file_js",
+        "js": "file_js",
+        "es": "file_js",
+        "es5": "file_js",
+        "es7": "file_js",
+        "jshintrc": "file_js_hint",
+        "mts": "file_ts",
+        "cts": "file_ts",
+        "ts": "file_ts",
         "csv": "file_csv",
         "vue": "file_vueJs",
         "png": "file_image",
         "webp": "file_image",
         "jpg": "file_image",
+        "jpeg": "file_image",
         "gif": "file_image",
+        "tiff": "file_image",
         "ico": "file_image",
         "svg": "file_image",
+        "psd": "file_image",
         "ttf": "file_font",
         "woff": "file_font",
         "oft": "file_font",
@@ -428,6 +501,7 @@
         "bash": "file_shell",
         "gz": "file_archive",
         "zip": "file_archive",
+        "jar": "file_archive",
         "rar": "file_archive",
         "7z": "file_archive",
         "tar": "file_archive",
@@ -435,6 +509,10 @@
         "cfg": "file_config",
         "c": "file_c",
         "cpp": "file_cpp",
+        "hh": "file_cpp",
+        "hpp": "file_cpp",
+        "hxx": "file_cpp",
+        "h++": "file_cpp",
         "py": "file_python",
         "go": "file_go",
         "php": "file_php",
@@ -448,9 +526,48 @@
         "kt": "file_kotlin",
         "kts": "file_kotlin",
         "toml": "file_editorConfig",
-        "log": "file_anyType"
+        "log": "file_anyType",
+        "xls": "file_table",
+        "xlsx": "file_table",
+        "asm": "file_asm",
+        "test.js": "file_js_test",
+        "test.cjs": "file_js_test",
+        "test.mjs": "file_js_test",
+        "spec.js": "file_js_test",
+        "spec.cjs": "file_js_test",
+        "spec.mjs": "file_js_test",
+        "test.ts": "file_ts_test",
+        "test.cts": "file_ts_test",
+        "test.mts": "file_ts_test",
+        "spec.ts": "file_ts_test",
+        "spec.cts": "file_ts_test",
+        "spec.mts": "file_ts_test",
+        "test.jsx": "file_jsx_test",
+        "spec.jsx": "file_jsx_test",
+        "test.tsx": "file_tsx_test",
+        "spec.tsx": "file_tsx_test",
+        "dockerignore": "file_ignored",
+        "doc": "file_unknown",
+        "docx": "file_unknown"
     },
     "languageIds": {
+        "json": "file_json",
+        "json5": "file_json",
+        "jsonl": "file_json",
+        "c": "file_c",
+        "cpp": "file_cpp",
+        "css": "file_css",
+        "go": "file_go",
+        "java": "file_java",
+        "javascript": "file_js",
+        "javascriptreact": "file_react",
+        "markdown": "file_markdown",
+        "scss": "file_sass",
+        "sass": "file_sass",
+        "xml": "file_xml",
+        "kotlin": "file_kotlin",
+        "vue": "file_vueJs",
+        "postcss": "file_css"
     },
     "light": {
         "file": "file_text_light",
@@ -462,31 +579,49 @@
         "fileNames": {
             ".editorconfig": "file_editorConfig_light",
             ".stylelintrc": "file_stylelint_light",
-            "stylelint.config.js": "file_stylelint_light",
-            "stylelint.config.cjs": "file_stylelint_light",
-            "stylelint.config.ts": "file_stylelint_light",
             ".stylelintrc.json": "file_stylelint_light",
             ".stylelintrc.yaml": "file_stylelint_light",
             ".stylelintrc.yml": "file_stylelint_light",
             ".stylelintrc.js": "file_stylelint_light",
             ".stylelintrc.cjs": "file_stylelint_light",
+            ".stylelintrc.mjs": "file_stylelint_light",
+            "stylelint.config.js": "file_stylelint_light",
+            "stylelint.config.cjs": "file_stylelint_light",
+            "stylelint.config.mjs": "file_stylelint_light",
+            "stylelint.config.ts": "file_stylelint_light",
+            "stylelint.config.cts": "file_stylelint_light",
+            "stylelint.config.mts": "file_stylelint_light",
             "manifest.json": "file_manifest_light"
         },
         "fileExtensions": {
+            "css": "file_css_light",
+            "scss": "file_sass_light",
+            "sass": "file_sass_light",
             "less": "file_less_light",
             "json": "file_json_light",
             "jsx": "file_react_light",
+            "cjsx": "file_react_light",
             "tsx": "file_react_light",
-            "mjs": "file_javaScript_light",
-            "cjs": "file_javaScript_light",
-            "js": "file_javaScript_light",
+            "mjs": "file_js_light",
+            "cjs": "file_js_light",
+            "js": "file_js_light",
+            "es": "file_js_light",
+            "es5": "file_js_light",
+            "es7": "file_js_light",
+            "jshintrc": "file_js_hint_light",
+            "mts": "file_ts_light",
+            "cts": "file_ts_light",
+            "ts": "file_ts_light",
             "csv": "file_csv_light",
             "png": "file_image_light",
             "webp": "file_image_light",
             "jpg": "file_image_light",
+            "jpeg": "file_image_light",
             "gif": "file_image_light",
+            "tiff": "file_image_light",
             "ico": "file_image_light",
             "svg": "file_image_light",
+            "psd": "file_image_light",
             "ttf": "file_font_light",
             "woff": "file_font_light",
             "oft": "file_font_light",
@@ -502,6 +637,7 @@
             "bash": "file_shell_light",
             "gz": "file_archive_light",
             "zip": "file_archive_light",
+            "jar": "file_archive_light",
             "rar": "file_archive_light",
             "7z": "file_archive_light",
             "tar": "file_archive_light",
@@ -519,7 +655,32 @@
             "kt": "file_kotlin_light",
             "kts": "file_kotlin_light",
             "toml": "file_editorConfig_light",
-            "log": "file_anyType_light"
+            "log": "file_anyType_light",
+            "xls": "file_table_light",
+            "xlsx": "file_table_light",
+            "asm": "file_asm_light",
+            "dockerignore": "file_ignored_light",
+            "doc": "file_unknown_light",
+            "docx": "file_unknown_light"
+        },
+        "languageIds": {
+            "json": "file_json_light",
+            "json5": "file_json_light",
+            "jsonl": "file_json_light",
+            "c": "file_c_light",
+            "cpp": "file_cpp_light",
+            "css": "file_css_light",
+            "go": "file_go_light",
+            "java": "file_java_light",
+            "javascript": "file_js_light",
+            "javascriptreact": "file_react_light",
+            "markdown": "file_markdown",
+            "scss": "file_sass_light",
+            "sass": "file_sass_light",
+            "xml": "file_xml_light",
+            "kotlin": "file_kotlin_light",
+            "vue": "file_vueJs",
+            "postcss": "file_css_light"
         }
     }
 }

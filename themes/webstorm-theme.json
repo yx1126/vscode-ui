@@ -49,7 +49,8 @@
                 "text.pug constant.name.attribute.tag",
                 "text.xml",
                 "text.xml variable.language.documentroot",
-                "meta.interface meta.type.parameters punctuation.definition"
+                "meta.interface meta.type.parameters punctuation.definition",
+                "text.html.derivative meta.attribute.directive.vue entity.other.attribute-name.html"
             ],
             "settings": {
                 "foreground": "#BCBEC4"
@@ -60,6 +61,7 @@
                 "entity.name.tag",
                 "meta.template-tag entity.name.tag.template",
                 "punctuation.definition.tag",
+                "punctuation.definition.tag.begin",
                 "meta.selector.css constant.other.unicode-range",
                 "source.css meta.function.url",
                 "source.css support.function.misc",
@@ -74,7 +76,9 @@
                 "source.css keyword.operator",
                 "source.css meta.at-rule.each",
                 "source.css entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity",
-                "text.xml meta.tag.sgml.doctype"
+                "text.xml meta.tag.sgml.doctype",
+                "punctuation.definition.tag.begin.html source.js-ignored-vscode",
+                "invalid.illegal.character-not-allowed-here.html"
             ],
             "settings": {
                 "foreground": "#D5B778"
@@ -87,7 +91,8 @@
                 "entity.name.tag support.class.component",
                 "entity.name.tag.template",
                 "entity.name.tag.script",
-                "entity.name.tag.style"
+                "entity.name.tag.style",
+                "source.vue text.html.derivative meta.tag.structure.slot entity.name.tag.html"
             ],
             "settings": {
                 "foreground": "#2FBAA3"

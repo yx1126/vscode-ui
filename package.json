@@ -4,7 +4,13 @@
     "version": "0.0.3",
     "private": true,
     "description": "WebStorm Theme and Icon theme for Visual Studio Code",
-    "keywords": ["webstorm", "theme", "icons"],
+    "keywords": [
+        "webstorm",
+        "theme",
+        "icons",
+        "new ui",
+        "icon-theme"
+    ],
     "publisher": "reallyx",
     "icon": "resources/icon.png",
     "repository": {
