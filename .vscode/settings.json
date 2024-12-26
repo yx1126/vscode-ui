@@ -13,7 +13,6 @@
         "json",
         "json5"
     ],
-    "workbench.iconTheme": "vs-seti",
     "editor.cursorSmoothCaretAnimation": "on",
     "files.exclude": {
         "out": false // set this to true to hide the "out" folder with the compiled JS files

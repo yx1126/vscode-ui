@@ -1,4 +1,9 @@
 // @ts-check
 import { defineEslint } from "@reallyx/front-config"
 
-export default defineEslint()
+export default defineEslint({
+    package: true,
+    jsonc: true,
+    tsconfig: false,
+    yaml: false,
+})

@@ -20,10 +20,11 @@
     "scripts": {
         "push": "vsce publish --no-dependencies",
         "lint": "eslint .",
-        "lint:fix": "eslint . --fix"
+        "lint:fix": "eslint . --fix",
+        "inspector": "npx @eslint/config-inspector@latest"
     },
     "devDependencies": {
-        "@reallyx/front-config": "^0.0.9",
+        "@reallyx/front-config": "^0.0.12",
         "eslint": "^9.16.0"
     },
     "engines": {

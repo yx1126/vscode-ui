@@ -13,7 +13,7 @@
             "iconPath": "../resources/jetBrains/light-icon/addAny.svg"
         },
         "file_angularJS": {
-            "iconPath": "../resources/jetBrains/dark-icon/angularJS.svg"
+            "iconPath": "../resources/custom-icon/dark-icon/angularJS.svg"
         },
         "file_anyType": {
             "iconPath": "../resources/jetBrains/dark-icon/anyType.svg"
@@ -178,7 +178,7 @@
             "iconPath": "../resources/jetBrains/light-icon/properties.svg"
         },
         "file_protobuf": {
-            "iconPath": "../resources/jetBrains/dark-icon/protobuf.svg"
+            "iconPath": "../resources/custom-icon/dark-icon/protobuf.svg"
         },
         "file_react": {
             "iconPath": "../resources/jetBrains/dark-icon/react.svg"
@@ -247,7 +247,7 @@
             "iconPath": "../resources/jetBrains/light-icon/unknown.svg"
         },
         "file_vueJs": {
-            "iconPath": "../resources/jetBrains/dark-icon/vueJs.svg"
+            "iconPath": "../resources/custom-icon/dark-icon/vueJs.svg"
         },
         "file_xhtml": {
             "iconPath": "../resources/jetBrains/dark-icon/xhtml.svg"
@@ -271,37 +271,40 @@
             "iconPath": "../resources/jetBrains/dark-icon/yarn.svg"
         },
         "file_c": {
-            "iconPath": "../resources/custom-icon/dark-icon/c.svg"
+            "iconPath": "../resources/jetBrains/dark-icon/c.svg"
         },
         "file_c_light": {
-            "iconPath": "../resources/custom-icon/light-icon/c.svg"
+            "iconPath": "../resources/jetBrains/light-icon/c.svg"
         },
         "file_cpp": {
-            "iconPath": "../resources/custom-icon/dark-icon/cpp.svg"
+            "iconPath": "../resources/jetBrains/dark-icon/cpp.svg"
         },
         "file_cpp_light": {
-            "iconPath": "../resources/custom-icon/light-icon/cpp.svg"
+            "iconPath": "../resources/jetBrains/light-icon/cpp.svg"
         },
         "file_eslint": {
-            "iconPath": "../resources/custom-icon/dark-icon/eslint.svg"
+            "iconPath": "../resources/jetBrains/dark-icon/eslint.svg"
+        },
+        "file_eslint_light": {
+            "iconPath": "../resources/jetBrains/light-icon/eslint.svg"
         },
         "file_go": {
-            "iconPath": "../resources/custom-icon/dark-icon/go.svg"
+            "iconPath": "../resources/jetBrains/dark-icon/go.svg"
         },
         "file_go_light": {
-            "iconPath": "../resources/custom-icon/light-icon/go.svg"
+            "iconPath": "../resources/jetBrains/light-icon/go.svg"
         },
         "file_kotlin": {
-            "iconPath": "../resources/custom-icon/dark-icon/kotlin.svg"
+            "iconPath": "../resources/jetBrains/dark-icon/kotlin.svg"
         },
         "file_kotlin_light": {
-            "iconPath": "../resources/custom-icon/light-icon/kotlin.svg"
+            "iconPath": "../resources/jetBrains/light-icon/kotlin.svg"
         },
         "file_php": {
-            "iconPath": "../resources/custom-icon/dark-icon/php.svg"
+            "iconPath": "../resources/jetBrains/dark-icon/php.svg"
         },
         "file_php_light": {
-            "iconPath": "../resources/custom-icon/light-icon/php.svg"
+            "iconPath": "../resources/jetBrains/light-icon/php.svg"
         },
         "file_pnpm": {
             "iconPath": "../resources/custom-icon/dark-icon/pnpm.svg"
@@ -319,10 +322,16 @@
             "iconPath": "../resources/custom-icon/light-icon/rust.svg"
         },
         "file_stylelint": {
-            "iconPath": "../resources/custom-icon/dark-icon/stylelint.svg"
+            "iconPath": "../resources/jetBrains/dark-icon/stylelint.svg"
         },
         "file_stylelint_light": {
-            "iconPath": "../resources/custom-icon/light-icon/stylelint.svg"
+            "iconPath": "../resources/jetBrains/light-icon/stylelint.svg"
+        },
+        "file_stylus": {
+            "iconPath": "../resources/jetBrains/dark-icon/stylus.svg"
+        },
+        "file_stylus_light": {
+            "iconPath": "../resources/jetBrains/light-icon/stylus.svg"
         },
         "file_svelte": {
             "iconPath": "../resources/custom-icon/dark-icon/svelte.svg"
@@ -459,6 +468,8 @@
         "scss": "file_sass",
         "sass": "file_sass",
         "less": "file_less",
+        "styl": "file_stylus",
+        "stylus": "file_stylus",
         "json": "file_json",
         "html": "file_html",
         "jsx": "file_react",
@@ -564,6 +575,7 @@
         "markdown": "file_markdown",
         "scss": "file_sass",
         "sass": "file_sass",
+        "stylus": "file_stylus",
         "xml": "file_xml",
         "kotlin": "file_kotlin",
         "vue": "file_vueJs",
@@ -598,6 +610,8 @@
             "scss": "file_sass_light",
             "sass": "file_sass_light",
             "less": "file_less_light",
+            "styl": "file_stylus_light",
+            "stylus": "file_stylus_light",
             "json": "file_json_light",
             "jsx": "file_react_light",
             "cjsx": "file_react_light",
@@ -677,6 +691,7 @@
             "markdown": "file_markdown",
             "scss": "file_sass_light",
             "sass": "file_sass_light",
+            "stylus": "file_stylus_light",
             "xml": "file_xml_light",
             "kotlin": "file_kotlin_light",
             "vue": "file_vueJs",

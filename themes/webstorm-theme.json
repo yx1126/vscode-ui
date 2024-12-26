@@ -355,6 +355,13 @@
             }
         },
         {
+            "name": "Markdown - Heading.setext",
+            "scope": ["markup.heading.setext.1.markdown", "markup.heading.setext.2.markdown"],
+            "settings": {
+                "foreground": "#C77DBB"
+            }
+        },
+        {
             "name": "Markdown - Heading",
             "scope": [
                 "markdown.heading",
@@ -365,22 +372,24 @@
             }
         },
         {
-            "name": "Markup - Italic",
-            "scope": ["markup.italic"],
+            "name": "Markup - definition",
+            "scope": ["punctuation.definition.bold", "punctuation.definition.italic"],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#f07178"
+                "foreground": "#CF8E6D"
             }
         },
         {
-            "name": "Markup - Bold",
-            "scope": [
-                "markup.bold",
-                "markup.bold string"
-            ],
+            "name": "Markdown - Table.text",
+            "scope": ["markup.table.markdown"],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#f07178"
+                "foreground": "#BCBEC4"
+            }
+        },
+        {
+            "name": "Markdown - Table.definition",
+            "scope": ["meta.separator.markdown", "punctuation.definition.table.markdown", "punctuation.separator.table.markdown"],
+            "settings": {
+                "foreground": "#CF8E6D"
             }
         },
         {
