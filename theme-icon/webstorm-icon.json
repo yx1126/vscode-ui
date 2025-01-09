@@ -461,7 +461,13 @@
         "babel.config.json": "file_babel",
         "rollup.config.js": "file_rollup",
         "rollup.config.ts": "file_rollup",
-        ".vscodeignore": "file_vscode"
+        ".vscodeignore": "file_vscode",
+        "vitest.config.js": "file_vitest",
+        "vitest.config.ts": "file_vitest",
+        "vitest.config.cjs": "file_vitest",
+        "vitest.config.mjs": "file_vitest",
+        "vitest.config.cts": "file_vitest",
+        "vitest.config.mts": "file_vitest"
     },
     "fileExtensions": {
         "css": "file_css",
@@ -589,6 +595,17 @@
             "node_modules": "file_folder_node_module_light"
         },
         "fileNames": {
+            ".eslintrc": "file_eslint_light",
+            ".eslintrc.cjs": "file_eslint_light",
+            ".eslintrc.js": "file_eslint_light",
+            ".eslintrc.ts": "file_eslint_light",
+            "eslint.config.js": "file_eslint_light",
+            "eslint.config.cjs": "file_eslint_light",
+            "eslint.config.mjs": "file_eslint_light",
+            "eslint.config.ts": "file_eslint_light",
+            "eslint.config.cts": "file_eslint_light",
+            "eslint.config.mts": "file_eslint_light",
+            ".eslintignore": "file_eslint_light",
             ".editorconfig": "file_editorConfig_light",
             ".stylelintrc": "file_stylelint_light",
             ".stylelintrc.json": "file_stylelint_light",
