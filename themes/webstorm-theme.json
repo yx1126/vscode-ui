@@ -78,7 +78,11 @@
                 "source.css entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity",
                 "text.xml meta.tag.sgml.doctype",
                 "punctuation.definition.tag.begin.html source.js-ignored-vscode",
-                "invalid.illegal.character-not-allowed-here.html"
+                "invalid.illegal.character-not-allowed-here.html",
+                "meta.tag.structure entity.name.tag",
+                "meta.element.structure entity.name.tag",
+                "source.css entity.name.tag",
+                "source.css meta.property-value variable"
             ],
             "settings": {
                 "foreground": "#D5B778"
@@ -89,9 +93,7 @@
                 "meta.tag.custom entity.name.tag",
                 "meta.tag.other.unrecognized entity.name.tag",
                 "entity.name.tag support.class.component",
-                "entity.name.tag.template",
-                "entity.name.tag.script",
-                "entity.name.tag.style",
+                "entity.name.tag",
                 "source.vue text.html.derivative meta.tag.structure.slot entity.name.tag.html"
             ],
             "settings": {
@@ -112,7 +114,6 @@
                 "keyword.control",
                 "keyword.operator.expression",
                 "keyword.operator.new",
-                "support.type",
                 "storage.modifier",
                 "source.editorconfig entity.name.section.group-title",
                 "markup.heading.markdown punctuation.definition.heading.markdown",
@@ -123,7 +124,8 @@
                 "source.css keyword.other",
                 "source.yaml entity.name.tag",
                 "constant.character.escape",
-                "text.pug meta.tag.sgml.doctype"
+                "text.pug meta.tag.sgml.doctype",
+                "support.type.primitive"
             ],
             "settings": {
                 "foreground": "#CF8E6D"
@@ -281,12 +283,6 @@
             "settings": {
                 "foreground": "#BC9455",
                 "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": ["source.css variable"],
-            "settings": {
-                "foreground": "#6D9CBE"
             }
         },
         {
@@ -525,7 +521,6 @@
         "string": "#6aab73",
         "property": "#C77DBB",
         "regexp": "#42c3d4",
-        "type": "#BCBEC4",
         "*.static": "#C77DBB"
     }
 }
