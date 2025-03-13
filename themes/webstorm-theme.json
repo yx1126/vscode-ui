@@ -125,7 +125,8 @@
                 "source.yaml entity.name.tag",
                 "constant.character.escape",
                 "text.pug meta.tag.sgml.doctype",
-                "support.type.primitive"
+                "support.type.primitive",
+                "meta.interface meta.type.parameters support.type.builtin"
             ],
             "settings": {
                 "foreground": "#CF8E6D"
