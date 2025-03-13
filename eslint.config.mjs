@@ -1,9 +1,6 @@
 // @ts-check
-import { defineEslint } from "@reallyx/front-config"
+import { defineEslint } from "@yx1126/lint-config";
 
 export default defineEslint({
-    package: true,
-    jsonc: true,
-    tsconfig: false,
-    yaml: false,
-})
+    stylistic: false,
+});
